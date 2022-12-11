@@ -19,7 +19,7 @@ const DogFacts = () => {
 
     return (
         <div>
-         <ul>
+         <ul className='list'>
             {factsArray.map(singleFact => {
                 return (
                     <li>{singleFact}</li>
